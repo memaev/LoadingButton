@@ -41,7 +41,7 @@ dependencies {
 `app:brogressBarColor` - to declare the color of the progress bar inside your button
 `app:isLoading` - to declare by default the status of the button. true - progress bar is shown, false - progress bar is hidden.
 
-2. Change the loading status of the button programmatically from your Java code
+2. Change the loading status of the button programmatically from your Java/Kotlin code
 ```
 LoadingButton loadingButton = findViewById(R.id.btn_loading);
 loadingButton.setLoading(true);
