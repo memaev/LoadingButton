@@ -7,15 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <maevskii.studio.loadingbutton.LoadingButton
+    <maevskii.studio.loading_button.LoadingButton
         android:id="@+id/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textColor="#fff"
-        app:progressBarColor="#fff"
         android:text="Hello"
+        android:textColor="#fff"
         app:isLoading="false"
-        />
+        app:progressBarColor="#fff" />
 
 </RelativeLayout>
