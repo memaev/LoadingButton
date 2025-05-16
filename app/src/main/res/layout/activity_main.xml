@@ -9,9 +9,10 @@
 
     <maevskii.studio.loading_button.LoadingButton
         android:id="@+id/mybutton"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:backgroundTint="@color/black"
         android:text="Hello"
         android:textColor="#fff"
         app:isLoading="false"

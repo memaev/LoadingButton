@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/button_background"
     android:paddingVertical="10dp"
     android:paddingHorizontal="30dp"
     android:elevation="8dp"
