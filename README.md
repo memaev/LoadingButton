@@ -20,7 +20,7 @@ dependencyResolutionManagement {
 2. Add library to your module's `build.gradle` file:
 ```
 dependencies {
-  implementation("com.github.memaev:LoadingButton:v1.0.0")
+  implementation("com.github.memaev:LoadingButton:v1.0.1")
 }
 ```
 3. Click "Sync now" to sync the project. If the sync passed successfully - you're done with the installation!
