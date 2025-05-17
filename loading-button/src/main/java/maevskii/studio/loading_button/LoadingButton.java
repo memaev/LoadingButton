@@ -55,13 +55,13 @@ public class LoadingButton extends LinearLayout {
         buttonTextView.setEnabled(true);
         buttonTextView.setTextColor(arr.getColor(R.styleable.LoadingButton_android_textColor, Color.BLACK));
 
-        int globalPadding = arr.getInteger(R.styleable.LoadingButton_android_padding, 0);
-        this.setPadding(
-                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingStart, 0)),
-                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingTop, 0)),
-                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingEnd, 0)),
-                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingBottom, 0))
-        );
+//        int globalPadding = arr.getInteger(R.styleable.LoadingButton_android_padding, 0);
+//        this.setPadding(
+//                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingStart, 0)),
+//                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingTop, 0)),
+//                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingEnd, 0)),
+//                Math.max(globalPadding, arr.getInteger(R.styleable.LoadingButton_android_paddingBottom, 0))
+//        );
         setText(arr.getString(R.styleable.LoadingButton_android_text));
         setBackgroundResource(R.drawable.button_background);
         setGravity(Gravity.CENTER);
